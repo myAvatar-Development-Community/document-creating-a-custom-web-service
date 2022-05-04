@@ -234,17 +234,7 @@ Click **Set as Start Page**.
 
 # The Netsmart ScriptLink Service
 
-Your project also needs the "Netsmart ScriptLink Service" component to function.
-
-## Aquiring the Netsmart ScriptLink Service
-
-This is where things get...*weird*.
-
-In order you create a custom web service that myAvatar™ can consume, you'll need to add the "Netsmart Scriptlink Service" to your project.
-
-Ideally you would download the current version of the Scriptlink Service from the Netsmart Community App Exchange...but as of May 2022, the App Exchange is not available.
-
-So the next best option is to download the Netsmart ScriptLink Service from this repository [here](../../dep/third-party/Netsmart/OptionObject2015/136_4354_20_ScriptLinkStub.zip). This is the latest version of the Scriptlink Service, downloaded from the App Exchange prior to the Service Now update.
+Your project also needs the "Netsmart ScriptLink Service" component to function, which you can download [here](https://github.com/myAvatar-Development-Community/dependency-netsmart-scriptlink-service).
 
 ### Verify the download is legit
 
