@@ -4,8 +4,6 @@
 
 >Last updated: May 3, 2022 by <a href="https://github.com/APrettyCoolProgram">Chris Banwarth</a>
 
-<br>
-
 ***
 
 ### CONTENTS
