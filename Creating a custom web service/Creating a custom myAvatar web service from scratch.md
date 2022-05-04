@@ -26,7 +26,9 @@ While myAvatar™ is a robust platform, like most things in life (except [Heroes
 
 When I started to develop my own custom web service for myAvatar™ - [MAWS](https://github.com/spectrum-health-systems/MAWS) - there was a dearth of information about how to start. I created the first version of this manual to document the steps I took to create the basic foundation for a custom web service.
 
-At Netsmart Connections 2022, it became evident other myAvatar™ clients were interested in creating their own custom web services, but didn't know where to start. So I've updated the documentation with the hope that it will help new developers to get started faster. 
+At Netsmart Connections 2022, it became evident other myAvatar™ clients were interested in creating their own custom web services, but didn't know where to start. So I've updated the documentation with the hope that it will help new developers to get started faster.
+
+You can also view the completed template sourcecode [here](https://github.com/myAvatar-Development-Community/custom-avatar-web-service-template).
 
 ## Requirements
 
