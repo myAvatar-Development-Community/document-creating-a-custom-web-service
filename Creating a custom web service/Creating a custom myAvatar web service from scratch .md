@@ -1,14 +1,6 @@
 <!-- 220503.110300 -->
 
-<h2 align="center">
-
-  <img src="resource/image/logo/custom-avatar-web-service-template-logo-512x350.png" alt="Custom Avatar Web Service logo" width="384">
-  <br>
-  Creating a custom myAvatar™ web service
-  <br>
-
-</h2>
-
+# Creating a custom myAvatar web service from scratch
 <h6 align="center">
   Last updated: May 3, 2022 by <a href="https://github.com/APrettyCoolProgram">Chris Banwarth</a>
 </h6>
