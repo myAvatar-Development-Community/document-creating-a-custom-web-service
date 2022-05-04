@@ -1,9 +1,10 @@
 <!-- 220503.110300 -->
 
 # Creating a custom myAvatar web service from scratch
-<h6 align="center">
-  Last updated: May 3, 2022 by <a href="https://github.com/APrettyCoolProgram">Chris Banwarth</a>
-</h6>
+
+>Last updated: May 3, 2022 by <a href="https://github.com/APrettyCoolProgram">Chris Banwarth</a>
+
+<br>
 
 ***
 
