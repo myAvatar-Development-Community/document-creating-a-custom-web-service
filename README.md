@@ -2,7 +2,7 @@
 
 # Creating a custom myAvatar™ web service from scratch
 
->Last updated: May 3, 2022 by <a href="https://github.com/APrettyCoolProgram">Chris Banwarth</a>
+>Last updated: May 3, 2022 by [Chris Banwarth](https://github.com/APrettyCoolProgram)
 
 ***
 
