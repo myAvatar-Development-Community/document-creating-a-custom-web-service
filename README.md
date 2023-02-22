@@ -2,7 +2,7 @@
 
 # Creating a custom myAvatar™ web service from scratch
 
->Last updated: May 3, 2022 by [Chris Banwarth](https://github.com/APrettyCoolProgram)
+>Last updated: February 22, 2023 by [Chris Banwarth](https://github.com/APrettyCoolProgram)
 
 ***
 
@@ -232,141 +232,21 @@ Click **Set as Start Page**.
 
 <br>
 
-# The Netsmart ScriptLink Service
+# ScriptLinkStandard
 
-Your project also needs the "Netsmart ScriptLink Service" component to function, which you can download [here](https://github.com/myAvatar-Development-Community/dependency-netsmart-scriptlink-service).
+Your project also needs the [ScriptLinkStandard](https://rcskids.github.io/ScriptLinkStandard/) project to function.
 
-### Verify the download is legit
+To do this:
 
-Before you continue, please verify that the file you downloaded matches the following information:
+1. Create a new folder for third party components
 
->Name: 136_4354_20_ScriptLinkStub.zip<br>
->Size: 19994546 bytes (19 MiB)<br>
->SHA256: 4c3f539fb23cfc0f01299dcab670a2e886664268ebc53e69b10c4c07d6a12b3f<br>
+Right-click your web service solution, and choose "Add > New Solution Folder", and create a folder named "ThirdParty".
 
-## Adding the Netsmart ScriptLink Service to your project folder
+2. Create a new folder called "ThirdParty/" in your project, then copy the ScriptLinkStandard project to ThirdParty/
 
-The file you downloaded contains a bunch of stuff, most of which we don't need. 
+3. Right click the ThirdParty/ Solution Folder and click "Add > Existing Project", then add the ScriptLinkStandard.csproj file.
 
-### Step 1: Extract the contents of the archive file
-
-The extracted data should look like this:
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-01.png" width="750">
-  <br>
-  We don't need most of this stuff.
-  
-</h4>
-
-### Step 2: Find the `NTST.ScriptLinkService.Objects/` folder
-
-```
-./136_4354_20_ScriptLinkStub/ScriptLinkTutorialWithOptionObject2/DotNetCode/ScriptLinkServiceComplete/NTST.ScriptLinkService.Objects/
-```
-
-The folder contents should look like this:
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-02.png" width="750">
-  <br>
-  Contents of NTST.ScriptLinkService.Objects/.
-  
-</h4>
-
-### Step 3: Copy the `NTST.ScriptLinkService.Objects/` folder to the root of your project
-
-When complete, the folder structure of your project should look like this:
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-03.png" width="750">
-  <br>
-  So...does it look like this?
-  
-</h4>
-
-## Adding the Netsmart ScriptLink Service project to your solution
-
-Now we need to add the Netsmart ScriptLink Service project to our solution.
-
-1. Right click on your *solution* (e.g., "Solution 'CustomAvatarWebService'")
-2. Choose `Add > Existing Project`
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-04.png" width="750">
-  <br>
-  Exciting!
-  
-</h4>
-
-Next, navigate to the file named `NTST.ScriptLinkService.Objects.vbproj`, which should be here:
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-05.png" width="750">
-  <br>
-  %your-project-root%/NTST.ScriptLinkService.Objects/NTST.ScriptLinkService.Objects.vbproj
-  
-</h4>
-
-Click **Open**.
-
-If you get a pop-up that looks like this...
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-06.png" width="400">
-  <br>
-  Oh no!
-  
-</h4>
-
-...you'll need to choose between two options:
-1. Update the target to .NET Framework 4.8 **(Recommended)**
-2. Download .NET Framework 4.6.1 targeting pack
-
-Once you have made your choice, click **Continue**, and your project should now look like this:
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-07.png" width="400">
-  <br>
-  Anyway...
-  
-</h4>
-
-## Adding a reference to the Netsmart ScriptLink Service to your project
-
-Finally, we need to add a reference to the Netsmart ScriptLink Service to your project.
-
-1. Right click on your *project* (e.g., "CustomAvatarWebService")
-2. Choose `Add > Reference`
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-08.png" width="750">
-  <br>
-  Almost done!
-  
-</h4>
-
-Check the box next to "NTST.ScriptLinkService.Objects"
-
-<h4 align="center">
-
-  <img src="resource/image/cawst-documentation/cawst-adding-scriptlink-service-09.png" width="750">
-  <br>
-  It's a wrap!
-  
-</h4>
-
-Click **OK**.
-
-<br>
+4. Right click on your *project* , choose `Add > Reference`, and choose ScriptLinkStandard.
 
 # Adding required methods
 
